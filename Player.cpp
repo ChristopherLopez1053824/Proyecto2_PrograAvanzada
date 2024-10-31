@@ -1,5 +1,6 @@
 #include "Player.h"
 
+//PEDIMOS DATOS DE LOS JUGADORES
 void Player::AgregarDatosJugador(int i, int casilla)
 {
 	cout << "-----------------------------------------------------------------------------------------------------------------------------------------------\n";

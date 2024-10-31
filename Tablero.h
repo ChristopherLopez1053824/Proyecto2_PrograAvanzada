@@ -11,13 +11,6 @@ class Tablero
 	};
 	NodoFilas* headerFila;
 
-	struct NodoTurno
-	{
-		int Numero;
-		NodoTurno* siguienteTurno;
-	};
-
-	NodoTurno* headerTurno;
 public:
 	void CrearFilas(int NumeroCasillas);
 	void AgregarJugadores(int CantidadJugadores);

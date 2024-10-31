@@ -1,5 +1,6 @@
 #include "Filas.h"
-//Creamos 5 casillas
+
+//CREAMOS 5 CASILLAS CADA VEZ EN LA FILA
 void Filas::CrearCasillas(int ConteoCasillas)
 {
 	if (headerCasilla == nullptr)
@@ -18,7 +19,7 @@ void Filas::CrearCasillas(int ConteoCasillas)
 	}
 }
 
-//Se agrgan los jugadores en la casilla 1
+//AGREGAMOS JUGADORES EN LA CASILLA 1
 void Filas::AgregarJugadores(int CantidadJugadores)
 {
 	headerCasilla->Casilla->AgregarJugador(CantidadJugadores, headerCasilla->NumeroCasilla);
@@ -48,6 +49,8 @@ bool Filas::BusquedaJugadorTablero(int NumeroPlayer)
 	return 0;
 }
 
+
+//MOVEMOS AL JUGADOR EN LA CASILLA
 bool Filas::MoverJugador(int CasillaM, Player* Jugador)
 {
 	NodoCasillas* AuxiliarCasillas = headerCasilla;

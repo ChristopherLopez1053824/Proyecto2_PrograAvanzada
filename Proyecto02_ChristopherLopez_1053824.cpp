@@ -58,6 +58,6 @@ int main()
 			x = 0;
 		}
 	}
-	cout << "Felicidades Jugador numero " << DatosJugador->Numero << " " << DatosJugador->Nombre << "a ganado!!\n";
+	cout << "Felicidades Jugador numero " << DatosJugador->Numero << " " << DatosJugador->Nombre << " a ganado!!\n";
 
 }

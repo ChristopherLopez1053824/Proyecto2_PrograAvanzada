@@ -1,6 +1,6 @@
 #include "Casillas.h"
 
-//Se agrgan los jugadores en la casilla 1
+//AGREGAMOS LOS JUGADORES EN ESTA CASILLA
 void Casillas::AgregarJugador(int CantidadJugadores, int Casilla)
 {
 	if (header == nullptr)
